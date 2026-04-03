@@ -1,8 +1,8 @@
 {
   "name": "drop-render-server",
   "version": "1.0.0",
-  "main": "start.js",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
     "start": "node start.js"
   },
   "dependencies": {
