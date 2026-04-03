@@ -1,0 +1,11 @@
+{
+  "name": "drop-render-server",
+  "version": "1.0.0",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0"
+  }
+}

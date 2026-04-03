@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "exactOptionalPropertyTypes": true
+    "allowImportingTsExtensions": true,
+    "exactOptionalPropertyTypes": false
   },
-  "extends": "../.nuxt/tsconfig.server.json"
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json"
 }

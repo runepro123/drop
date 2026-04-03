@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: drop-server
+    env: node
+    plan: free
+    buildCommand: "cd server && npm install && npm run build"
+    startCommand: "node start.js"
+    disk:
+      name: drop-data
+      mountPath: /data
+      sizeGB: 1
